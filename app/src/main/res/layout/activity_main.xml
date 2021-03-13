@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:orientation="vertical"
+        android:text="@string/etec_irm_agostina"
+        android:textColor="#00FFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="top"
+        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="151dp"
+        android:layout_height="121dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:src="@drawable/wwicon"
+        app:layout_constraintBottom_toTopOf="center"
+        app:layout_constraintEnd_toStartOf="center"
+        app:layout_constraintHorizontal_bias="50"
+        app:layout_constraintStart_toStartOf="center"
+        app:layout_constraintTop_toTopOf="center"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"><![CDATA[
+
+
+
+    -52dp"
+        tools:layout_editor_absoluteY="291dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical"
+        android:text="Usuário:"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="right"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira o NSA"
+        android:maxLength="50"
+        android:inputType="textPersonName"
+        android:drawableRight="@drawable/ic_baseline_person"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-43dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical"
+        android:text="Senha:"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="right"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586"
+        tools:ignore="DuplicateIds">
+
+    <EditText
+        android:hint="******"
+        android:drawableRight="@drawable/ic_baseline_lock"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="380dp"
+        tools:ignore="MissingConstraints" />
+    -55dp"
+    tools:layout_editor_absoluteY="295dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="Esqueceu sua senha?"
+        tools:layout_editor_absoluteX="-80dp"
+        tools:layout_editor_absoluteY="523dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout><![CDATA[-55dp"
+        tools:layout_editor_absoluteY="295dp">
+
+
+
+    -52dp"
+        tools:layout_editor_absoluteY="291dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    ]]>
